@@ -465,7 +465,7 @@ func getLatestReleaseURL() (string, error) {
 	}
 
 	tag := t[0].TagName
-	url := fmt.Sprintf("https://github.com/boot2docker/boot2docker/releases/download/%s/boot2docker.iso", tag)
+	url := fmt.Sprintf("https://github.com/bastichelaar/boot2docker/boot2docker.iso")
 	return url, nil
 }
 
